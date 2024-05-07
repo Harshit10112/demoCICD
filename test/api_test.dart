@@ -10,7 +10,7 @@ void main(){
     bool value = false;
     var fetch = (await  Repo.getData()).isValid;
     if (fetch != null) {
-      value = true;
+      value = false;
     }
     expect(value, true);   
   });
